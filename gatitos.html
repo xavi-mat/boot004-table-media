@@ -1,54 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gimnasio Gervasio | Gatitos</title>
-</head>
-<body>
-    <nav>
-        <table>
-            <tr>
-                <td><a href="index.html">Inicio</a> | </td>
-                <td><a href="index.html#factura">Factura</a> | </td>
-                <td><a href="gatitos.html">Gatitos</a></td>
-            </tr>
-        </table>
-    </nav>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gimnasio Gervasio | Gatitos</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a>
+        <ul>
+          <li><a href="index.html#factura">Factura</a></li>
+        </ul>
+      </li>
+      <li><a href="gatitos.html">Relax</a>
+        <ul>
+          <li><a href="gatitos.html#imagenes">Saltos de agua</a></li>
+          <li><a href="gatitos.html#videos">Gatitos</a></li>
+          <li><a href="gatitos.html#audio">Maullidos</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
     <h1>Gatitos</h1>
 
-    <h2 id="imagenes">Imágenes</h2>
-    <p>Magníficos saltos de agua.</p>
-    <img src="res/fall1.jpg" alt="Salto de agua 1" width="300">
-    <img src="res/fall2.jpg" alt="Salto de agua 2" width="300">
-    <img src="res/fall3.jpg" alt="Salto de agua 3" width="300">
+    <section id="imagenes">
+      <h2>Imágenes</h2>
+      <p>Magníficos saltos de agua.</p>
+      <img src="res/fall1.jpg" alt="Salto de agua 1" width="33%">
+      <img src="res/fall2.jpg" alt="Salto de agua 2" width="33%">
+      <img src="res/fall3.jpg" alt="Salto de agua 3" width="33%">
+    </section>
 
-    <h2 id="videos">Vídeos</h2>
-    <p>Preciosos gatitos.</p>
-    <video width="426" height="240" controls>
+    <section id="videos">
+      <h2>Vídeos</h2>
+      <p>Preciosos gatitos.</p>
+      <video width="426" height="240" controls>
         <source src="res/cat1.mp4">
-    </video>
-    <video width="426" height="240" controls>
+      </video>
+      <video width="426" height="240" controls>
         <source src="res/cat2.mp4">
-    </video>
-    <video width="426" height="240" controls>
+      </video>
+      <video width="426" height="240" controls>
         <source src="res/cat3.mp4">
-    </video>
+      </video>
+    </section>
 
-    <h2 id="audio">Sonido</h2>
-    <p>Relajantes gatitos maullando.</p>
-    <audio controls>
+    <section id="audio">
+      <h2>Sonido</h2>
+      <p>Relajantes gatitos maullando.</p>
+      <audio controls>
         <source src="res/cat1.mp3" type="audio/mpeg">
-    </audio>
-    <audio src="">
-        <source src="">
-    </audio>
-    <audio src="">
-        <source src="">
-    </audio>
+      </audio>
+      <audio controls>
+        <source src="res/cat2.mp3" type="audio/mpeg">
+      </audio>
+    </section>
 
-    <footer><br><center>&copy; 2022 Gimnasio Gervasio</center></footer>
+  </main>
+
+  <footer><br>
+    <hr>
+    <center>&copy; 2022 Gimnasio Gervasio</center><br>
+  </footer>
 </body>
+
 </html>

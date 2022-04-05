@@ -1,75 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gimnasio Gervasio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gimnasio Gervasio</title>
 </head>
+
 <body>
-    <nav>
-        <table>
-            <tr>
-                <td><a href="index.html">Inicio</a> | </td>
-                <td><a href="index.html#factura">Factura</a> | </td>
-                <td><a href="gatitos.html">Gatitos</a></td>
-            </tr>
-        </table>
-    </nav>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a>
+        <ul>
+          <li><a href="index.html#factura">Factura</a></li>
+        </ul>
+      </li>
+      <li><a href="gatitos.html">Relax</a>
+        <ul>
+          <li><a href="gatitos.html#imagenes">Saltos de agua</a></li>
+          <li><a href="gatitos.html#videos">Gatitos</a></li>
+          <li><a href="gatitos.html#audio">Maullidos</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
     <h1 id="inicio">Gimnasio Gervasio</h1>
     <h2 id="factura">Factura</h2>
-    <table border="1" style="border-collapse:collapse" width="700" cellpadding="10">
-        <tr style="background:#bbb">
-            <td colspan="3" width="75%"><b>Invoice #123456789</b></td>
-            <td><b>14 January 2025</b></td>
-        </tr>
-        <tr>
-            <td colspan="2" width="50%">
-                <strong>Pay to:</strong><br>
-                Acme Billing Co.<br>
-                123 Main St.<br>
-                Cityville, NA 12345
-            </td>
-            <td colspan="2" width="50%">
-                <strong>Customer:</strong><br>
-                John Smith<br>
-                321 Willow Way<br>
-                Southeast Northwestershire, MA 54321
-            </td>
-        </tr>
-        <tr style="background:#bbb">
-            <td width="25%"><b>Name / Description</b></td>
-            <td width="25%"><b>Qty.</b></td>
-            <td width="25%"><b>@</b></td>
-            <td width="25%"><b>Cost</b></td>
-        </tr>
-        <tr>
-            <td width="25%">Paperclips</td>
-            <td width="25%">1000</td>
-            <td width="25%">0.01</td>
-            <td width="25%">10.00</td>
-        </tr>
-        <tr>
-            <td width="25%">Staples (box)</td>
-            <td width="25%">100</td>
-            <td width="25%">1.00</td>
-            <td width="25%">100.00</td>
-        </tr>
-        <tr>
-            <td colspan="3" width="75%" style="background:#bbb"><b>Subtotal</b></td>
-            <td width="25%">110.00</td>
-        </tr>
-        <tr>
-            <td colspan="2" width="20%" style="background:#bbb"><b>Tax</b></td>
-            <td width="25%">8%</td>
-            <td width="25%">8.80</td>
-        </tr>
-        <tr>
-            <td colspan="3" width="75%" style="background:#bbb"><b>Grand total</b></td>
-            <td width="25%">$ 118.80</td>
-        </tr>
+    <table border="1" style="border-collapse:collapse" width="600" cellpadding="5">
+      <tr style="background:#ddd">
+        <td colspan="3" width="75%"><b>Invoice #123456789</b></td>
+        <td><b>14 January 2025</b></td>
+      </tr>
+      <tr>
+        <td colspan="2" width="50%">
+          <strong>Pay to:</strong><br>
+          Acme Billing Co.<br>
+          123 Main St.<br>
+          Cityville, NA 12345
+        </td>
+        <td colspan="2" width="50%">
+          <strong>Customer:</strong><br>
+          John Smith<br>
+          321 Willow Way<br>
+          Southeast Northwestershire, MA 54321
+        </td>
+      </tr>
+      <tr style="background:#ddd">
+        <td width="25%"><b>Name / Description</b></td>
+        <td width="25%"><b>Qty.</b></td>
+        <td width="25%"><b>@</b></td>
+        <td width="25%"><b>Cost</b></td>
+      </tr>
+      <tr>
+        <td width="25%">Paperclips</td>
+        <td width="25%">1000</td>
+        <td width="25%">0.01</td>
+        <td width="25%">10.00</td>
+      </tr>
+      <tr>
+        <td width="25%">Staples (box)</td>
+        <td width="25%">100</td>
+        <td width="25%">1.00</td>
+        <td width="25%">100.00</td>
+      </tr>
+      <tr>
+        <td colspan="3" width="75%" style="background:#ddd"><b>Subtotal</b></td>
+        <td width="25%">110.00</td>
+      </tr>
+      <tr>
+        <td colspan="2" width="20%" style="background:#ddd"><b>Tax</b></td>
+        <td width="25%">8%</td>
+        <td width="25%">8.80</td>
+      </tr>
+      <tr>
+        <td colspan="3" width="75%" style="background:#ddd"><b>Grand total</b></td>
+        <td width="25%">$ 118.80</td>
+      </tr>
     </table>
-
-    <footer><br><center>&copy; 2022 Gimnasio Gervasio</center></footer>
+  </main>
+  <footer><br>
+    <hr>
+    <center>&copy; 2022 Gimnasio Gervasio</center><br>
+  </footer>
 </body>
+
 </html>
